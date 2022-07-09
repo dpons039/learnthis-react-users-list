@@ -8,7 +8,7 @@ module.exports = {
 			version: 'detect'
 		}
 	},
-	extends: ['plugin:react/recommended', 'plugin:react/jsx-runtime', 'standard', 'eslint-config-prettier'],
+	extends: ['plugin:react/recommended', 'plugin:react/jsx-runtime', 'plugin:react-hooks/recommended', 'standard', 'eslint-config-prettier'],
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true
